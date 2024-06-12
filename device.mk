@@ -309,7 +309,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     SettingsOverlay \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    DeviceAsWebcamLavender
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
