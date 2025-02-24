@@ -1349,14 +1349,19 @@ vendor/bin/pm-proxy|bc4e972e3fe595b973197efe5114da8ff4339a59
 vendor/bin/pm-service|ea63802cf0483ee4ed2a6611ba7f1d0f36970c06
 vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
 
-# Postprocessing - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/bin/hw/vendor.display.color@1.0-service|e8c561e3a169c3007b117515f2946f23a195a5e5
-vendor/bin/mm-pp-dpps|6ea1cce94308164377dab39cc19f1ddd1c6a0836
+# Postprocessing - from LA.UM.9.2.r1-03500-SDMxx0.0
+vendor/bin/hw/vendor.display.color@1.0-service|815cc36f3722fbfb5fdd52f6678309d207888038
+vendor/bin/mm-pp-dpps|0aa22b96ee8de5f17386f992ba9f20bc5051261f
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
-vendor/lib64/libdisp-aba.so|571f14ff20b284c263cec9f1ed887878477ee8e7
-vendor/lib64/vendor.display.color@1.0.so|c7eb0d87e45934ad7ff34d0c977116ed46091865
-vendor/lib64/vendor.display.color@1.1.so|d2dfc3fff6aaf7989110ebe05af154186e535010
-vendor/lib64/vendor.display.postproc@1.0.so|c9c96ff50b6ff8989fac9fdf35d282a996ea477a
+vendor/lib64/libdisp-aba.so|4aed9d5d297c812bf5dd1aedede4f1c7dec22cf9
+vendor/lib/vendor.display.color@1.0.so|9760632347eec152f659917e8fef4f0107c26202
+vendor/lib/vendor.display.color@1.1.so|b20a749499d34b408b8e446a89e7bd5b42e989ce
+vendor/lib/vendor.display.color@1.2.so|c4eb039fb221db05600aaeef75c225c97da842d4
+vendor/lib/vendor.display.postproc@1.0.so|8802c96c1210b5f0cd60d8846c67b9379c1f5381
+vendor/lib64/vendor.display.color@1.0.so|09cb45881528c6d4675754c88c108f30dd1da12a
+vendor/lib64/vendor.display.color@1.1.so|3cf0d256372bd418462326e6067b4e1213226194
+vendor/lib64/vendor.display.color@1.2.so|8184e5d3e404864b1a1518b4d4e2012a5839660b
+vendor/lib64/vendor.display.postproc@1.0.so|86ef4e868f7abb95d555a4d086a8c4193920803f
 
 # Power-off alarm - from caymanslm - SKQ1.211103.001
 product/app/PowerOffAlarm/PowerOffAlarm.apk:system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|f0a86fc11b38c059912303857bc4c79155430bcc
