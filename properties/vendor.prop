@@ -110,6 +110,17 @@ ro.bluetooth.a2dp_offload.supported=true
 vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
 
+# Blur
+ro.launcher.blur.appLaunch=0
+ro.surface_flinger.supports_background_blur=0
+ro.sf.blurs_are_expensive=1
+persist.sys.sf.disable_blurs=true
+enable_blurs_on_windows=0
+disableBlurs=true
+ro.sf.blurs_are_caro=1
+ro.miui.has_real_blur=0
+persist.sys.background_blur_supported=false
+
 # Camera
 persist.camera.HAL3.enabled=1
 persist.camera.perflock.enable=0
