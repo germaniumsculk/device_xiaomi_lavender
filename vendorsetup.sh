@@ -2,7 +2,7 @@
 
 # clone device tree
 rm -rf device/xiaomi/lavender;
-git clone https://github.com/Aeoniixx/device_xiaomi_lavender -b Flare-15 device/xiaomi/lavender --depth=1;
+git clone https://github.com/Aeoniixx/device_xiaomi_lavender -b Axion-15 device/xiaomi/lavender --depth=1;
 
 # clone vendor tree
 rm -rf vendor/xiaomi/lavender;
