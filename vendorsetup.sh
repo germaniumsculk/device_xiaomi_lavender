@@ -14,4 +14,4 @@ git clone https://github.com/Aeoniixx/kernel_xiaomi_lavender-4.19 -b 15.0 kernel
 
 # Dolby Atmos
 rm -rf vendor/motorola-dolby
-git clone https://github.com/userariii/vendor_motorola-dolby -b v1.3 vendor/motorola-dolby --depth=1;
+git clone https://github.com/Aeoniixx/vendor_motorola-dolby -b v1.3 vendor/motorola-dolby --depth=1;
