@@ -8,18 +8,23 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Project-Flare stuff
-$(call inherit-product, vendor/flare/config/common_full_phone.mk)
-WITH_GAPPS := true
-FLARE_BUILD_TYPE := OFFICIAL
-FLARE_MAINTAINER := Aeoniixx
+# Inherit some common Pixel Project stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
+USE_PIXEL_CHARGER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_PREBUILT_UPDATABLE_APEX := false
+TARGET_INCLUDE_CAMERA_GO := true
+TARGET_SUPPORTS_LILY_EXPERIENCE := true
+TARGET_SUPPORTS_GOOGLE_BATTERY := false
+TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GMS := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_NAME := flare_lavender
+PRODUCT_NAME := aosp_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
