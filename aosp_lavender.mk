@@ -20,6 +20,8 @@ TARGET_SUPPORTS_LILY_EXPERIENCE := true
 TARGET_SUPPORTS_GOOGLE_BATTERY := false
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := true
+CUSTOM_BUILDTYPE := OFFICIAL
+CUSTOM_MAINTAINER := Aeoniixx
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
