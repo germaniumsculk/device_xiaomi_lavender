@@ -8,20 +8,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Pixel Project stuff
+# Inherit some common PixelOS stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
-USE_PIXEL_CHARGER := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_PREBUILT_UPDATABLE_APEX := false
-TARGET_INCLUDE_CAMERA_GO := true
-TARGET_SUPPORTS_LILY_EXPERIENCE := true
-TARGET_SUPPORTS_GOOGLE_BATTERY := false
-TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := true
-CUSTOM_BUILDTYPE := OFFICIAL
-CUSTOM_MAINTAINER := Aeoniixx
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
